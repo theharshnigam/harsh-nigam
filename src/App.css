@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+:root {
+    --primary-white : #fff;
+    --primary-blue : #4C43D4;
+    --primary-dark : rgba(255,255,255,0);
+}
+
+body{
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+.navbar-custom {
+    background-color: rgba(32,44,148,255)
+    ;
+}
+
+.logo{
+    height: 3.125rem;
+    width: 4.375rem;
+}
+
+nav a.nav-link {
+    font-weight: 200;
+    letter-spacing: 0.0625rem;
+    cursor: pointer;
+}
+
+nav ul li {
+    
+    text-transform: uppercase;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-nav > li > a {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    color: azure !important;
+    border-top: 0.1875rem solid var(--primary-dark) ;
+}
+
+.navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-blue);
+}
