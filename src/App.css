@@ -24,6 +24,11 @@ body{
     ;
 }
 
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
 .logo{
     height: 3.125rem;
     width: 4.375rem;
@@ -65,10 +70,11 @@ nav ul li {
 .bg-image {
     
     position: relative;
-    background: url(bg.jpg) no-repeat;
+    background: url('images/bg.jpg') no-repeat;
     background-size: cover;
     background-position:center;
     height:90vh;
+    overflow: hidden;
     
    
 

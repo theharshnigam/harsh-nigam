@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../logo.jpg'
+import logo from '../images/logo.jpg'
 
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto ">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">About Me</a>
+          <a className="nav-link active" aria-current="page" href='#About'>About Me</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Education</a>
@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
     
       </ul>
-    
+      
     </div>
   </div>
 </nav>
