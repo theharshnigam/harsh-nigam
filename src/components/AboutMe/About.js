@@ -7,10 +7,10 @@ const About = () => {
         <div className='about__main' id="About">
             <div className='container'>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-sm-6'>
                        <img src={aboutImg} alt="" className="img-fluid about__img" />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-sm-6'>
                         <div className='right_side'>
                         <h1 className='about__heading'>Who am I ?</h1>
                         <h3><span style={{color:"red"}}>Hey,</span> I am <span className='name'><strong>Harsh Nigam</strong></span></h3>
