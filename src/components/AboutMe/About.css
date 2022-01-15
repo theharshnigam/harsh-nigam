@@ -7,6 +7,8 @@ img.about__img{
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: auto;
+    height: 50vh;
     
     
 }
@@ -44,7 +46,7 @@ p{
     color: whitesmoke;
 }
 
-@media (max-width:400px) {
+/* @media screen and (max-width:400px) {
     h1.about__heading{
         text-align: center;
     }
@@ -52,8 +54,23 @@ p{
         margin: 30px 0 0 70px;
         height: 250px;
         width: auto;
-        display: flex;
+        display: flex; 
         justify-content: center;
 
     }
-}
+} */
+
+/* @media screen and (min-width:400px) and (max-width:576) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 50%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+} */
