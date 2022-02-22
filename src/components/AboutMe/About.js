@@ -1,6 +1,7 @@
 import React from 'react';
 import '../AboutMe/About.css'
 import aboutImg from '../../images/myImg.jpg'
+import CV from '../../images/Harsh_CV.pdf'
 
 const About = () => {
     return (
@@ -21,6 +22,7 @@ const About = () => {
                             Ajay Kumar Garg Engineering College, Ghaziabad.<br/> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.
                         </p>
+                        <a href={CV} download><button className='CVbtn'>Download CV</button></a>
                         </div>
                     </div>
                 </div>

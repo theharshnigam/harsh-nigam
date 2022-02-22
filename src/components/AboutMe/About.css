@@ -50,6 +50,14 @@ h1.about__heading:hover{
     
     
 }
+.CVbtn{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
 h3{
     color: whitesmoke;
     text-align: start;
@@ -65,8 +73,14 @@ p{
     img.about__img {
         padding-left: 40px;
     }
-    p {
-        margin-bottom: 70px;
+    .CVbtn{
+        background-color: red;
+        color: whitesmoke;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 500;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width:481px) and (max-width:767px) {
@@ -78,8 +92,15 @@ p{
     margin-top: 70px;
     height: 50%;
 }
-p {
-    margin-bottom: 70px;
+
+.CVbtn{
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 }
 /* @media screen and (max-width:400px) {
