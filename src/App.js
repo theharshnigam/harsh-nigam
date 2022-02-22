@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/AboutMe/About'
 import ParticlesAround from './components/ParticlesAround'
+import Contact from './components/Contact/Contact'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar/>
       <Header/>
       <About/>
+      <Contact/>
     </>
   )
 }

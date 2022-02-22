@@ -8,7 +8,7 @@ const ParticlesAround = () => {
         params={{
           particles:{
             number:{
-              value:30,
+              value:32,
               density:{
                 enable:true,
                 value_area:500
@@ -17,8 +17,8 @@ const ParticlesAround = () => {
               shape:{
                 type: "circle",
                 stroke:{
-                  width:6,
-                  color: "#ff8c00"
+                  width:8,
+                  color: "#4C43D4"
                 }
               }
           }

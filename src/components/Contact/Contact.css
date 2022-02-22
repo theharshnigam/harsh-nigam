@@ -1,0 +1,18 @@
+.contact_main {
+    background-color: #23242e;
+    height: 70vh;
+}
+
+.contact_content {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    padding: 10px 10px;
+    position: relative;
+
+}
+
+.contact_content .logo {
+    height: 5%;
+    width: 5%;
+}

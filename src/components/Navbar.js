@@ -4,7 +4,7 @@ import logo from '../images/logo.jpg'
 
 const Navbar = () => {
     return (
-     <nav className="navbar navbar-expand-lg  navbar-custom">
+     <nav className="navbar navbar-expand-lg navbar-light  navbar-custom">
   <div className="container">
     <a className="navbar-brand" href="#"> <img className="logo" src={logo} /> </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@ const Navbar = () => {
           <a className="nav-link" href="#">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="#Contact">Contact</a>
         </li>
     
       </ul>

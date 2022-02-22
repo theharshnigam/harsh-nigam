@@ -1,6 +1,11 @@
 .about__main {
     background-color: #1a1c2b;
 }
+h1.aboutme-tite{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+}
 img.about__img{
     border-radius: 50%;
     margin-top: 30px;
@@ -9,10 +14,17 @@ img.about__img{
     margin-right: 20px;
     padding: auto;
     height: 50vh;
-    
+
     
 }
-
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    border-color:orange;
+    border-radius: 2px;
+    
+}
 img.about__img:hover{
     border-radius: 10%;
     
@@ -36,14 +48,16 @@ h1.about__heading:hover{
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     
+    
 }
 h3{
-    color: white;
+    color: whitesmoke;
     text-align: start;
    
 }
 p{
     color: whitesmoke;
+    line-height: 25px;
 }
 
 /* @media screen and (max-width:400px) {
