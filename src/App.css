@@ -20,8 +20,8 @@ body{
 
 
 .navbar-custom {
-    background-color: rgba(32,44,148,255)
-    ;
+    background-color: #191a2b;
+    
 }
 
 .navbar-light .navbar-toggler {
@@ -70,8 +70,8 @@ nav ul li {
 .bg-image {
     
     position: relative;
-    background: url('images/bg.jpg') no-repeat;
-    background-size: cover;
+    background: #1a1c2b url('images/background.jpg') no-repeat;
+    background-size: contain;
     background-position:center;
     height:90vh;
     overflow: hidden;
