@@ -69,6 +69,19 @@ p{
         margin-bottom: 70px;
     }
 }
+@media screen and (min-width:481px) and (max-width:767px) {
+    .mine {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    img.about__img {
+    margin-top: 70px;
+    height: 50%;
+}
+p {
+    margin-bottom: 70px;
+}
+}
 /* @media screen and (max-width:400px) {
     h1.about__heading{
         text-align: center;
