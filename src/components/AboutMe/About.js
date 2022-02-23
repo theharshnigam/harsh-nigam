@@ -22,7 +22,9 @@ const About = () => {
                             Ajay Kumar Garg Engineering College, Ghaziabad.<br/> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.
                         </p>
+                        <a href={CV} target="_blank"><button className='CVViewbtn'>View CV</button></a>
                         <a href={CV} download><button className='CVbtn'>Download CV</button></a>
+                        
                         </div>
                     </div>
                 </div>

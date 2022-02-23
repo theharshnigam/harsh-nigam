@@ -9,7 +9,9 @@ h1.aboutme-tite{
 img.about__img{
     
     margin-top: 30px;
-    height: 50%;
+    margin-left: 50px;
+    height: 75%;
+
     
     /* margin-top: 30px;
     margin-bottom: 30px;
@@ -58,6 +60,15 @@ h1.about__heading:hover{
     border-radius: 10px;
     font-weight: 500;
 }
+.CVViewbtn{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px 30px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
 h3{
     color: whitesmoke;
     text-align: start;
@@ -67,6 +78,15 @@ p{
     color: whitesmoke;
     line-height: 25px;
     font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+.mine {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 70vh;
+    padding-bottom: -1000px;
+}
 }
 
 @media screen and (max-width:480px) {
