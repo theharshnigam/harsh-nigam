@@ -91,8 +91,8 @@ p{
 
 @media screen and (max-width:480px) {
     img.about__img {
-        padding-left: 40px;
         height: 80%;
+    padding-right: 50px;
     }
     .CVbtn{
         background-color: red;
@@ -113,15 +113,25 @@ p{
     margin-top: 70px;
     height: 50%;
 }
+.CVViewbtn{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px 30px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
 
 .CVbtn{
     background-color: red;
     color: whitesmoke;
-    padding: 10px;
+    padding-top: 10px;
     border: none;
     border-radius: 10px;
     font-weight: 500;
-    margin-bottom: 30px;
+    
 }
 }
 /* @media screen and (max-width:400px) {
