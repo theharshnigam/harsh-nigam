@@ -3,10 +3,12 @@
     height: auto;
 }
 .title_heading {
+    
     text-align: center;
-    padding: 50px;
-    color: bisque;
+    text-shadow: 2px 2px 4px red;
+    color: wheat;
 }
+
 .heading{
     color: whitesmoke;
     text-decoration: underline;

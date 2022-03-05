@@ -1,6 +1,6 @@
 .contact_main {
     background-color: #23242e;
-    height: auto;
+    height: 100vh;
 }
 
 .contact_content {
@@ -9,6 +9,7 @@
     margin-left: 90px;
     padding: 10px 10px;
     position: relative;
+    float: left;
 
 }
 
@@ -18,8 +19,18 @@
 }
 
 @media screen and (max-width:480px) {
+    .contact_main {
+        height: 70vh;
+    }
     .contact_content {
-
+            padding-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 90px;
+            padding: 10px 10px;
+            position: relative;
+            
+        
+    
         margin-left: 20px;
     }
     .contact_content h3 {
@@ -29,6 +40,7 @@
         margin-right: auto;
         margin-left: auto;
         padding: 15px 50px;
+        text-align: center;
     }
     .contact_content .logo {
         margin-left: 0px;
@@ -48,10 +60,32 @@
         margin-right: auto;
         margin-left: auto;
         padding: 15px 110px;
+        text-align: center;
     }
     .contact_content .logo {
         margin-left: 0px;
         height: 15%;
         width: 15%;
     }
+}
+
+@media screen and (min-width:1280px) {
+    .test{
+        display:flex;
+        float: left;
+        align-items: center;
+        justify-content: center;
+        padding-left: 200px;
+
+
+    }
+    .contact_content .logo {
+        height: auto;
+        width: 30%;
+    }
+    .contact_content .logo:hover {
+        height: auto;
+        width: 50%;
+    }
+
 }
