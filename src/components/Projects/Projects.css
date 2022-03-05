@@ -3,7 +3,6 @@
     height: auto;
 }
 .title_heading {
-    
     text-align: center;
     text-shadow: 2px 2px 4px red;
     color: wheat;
@@ -52,6 +51,13 @@
         height: auto;
         width: 100%;
     }
+    .BTNprops{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20%;
+    }
+    
 }
 
 /* .project_main {
