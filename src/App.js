@@ -7,6 +7,7 @@ import Header from './components/Header'
 import About from './components/AboutMe/About'
 import ParticlesAround from './components/ParticlesAround'
 import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar/>
       <Header/>
       <About/>
+      <Projects/>
       <Contact/>
     </>
   )

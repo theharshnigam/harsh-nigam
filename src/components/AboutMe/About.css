@@ -1,18 +1,27 @@
+
 .about__main {
     background-color: #1a1c2b;
+    height: auto;
 }
 h1.aboutme-tite{
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
 }
-img.about__img{
-    
-    margin-top: 30px;
+.about__img{
+    background-color: blue;
+    padding-top: 40px ;
+    height: 70%;
+    /* margin-top: 30px;
     margin-left: 50px;
     height: 75%;
-    border-radius: 30px;
+    border-radius: 30px; */
 
+}
+.pic-container .img-fluid{
+    border: #f9ab00 solid 0.5px;
+    border-radius: 30px;
+    box-shadow: #0011f9 0 25px 80px -15px;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -36,7 +45,11 @@ h1.about__heading:hover{
     color: red;
 }
 .right_side {
-    margin-left: 30px;
+    background-color: #f9ab00;
+}
+.about_content {
+    padding-top: 50px;
+    padding-bottom: 0;
 }
 .name{
     font-family: 'Times New Roman', Times, serif;
@@ -45,29 +58,29 @@ h1.about__heading:hover{
     
 }
 .CVbtn{
-    background-color: red;
-    color: whitesmoke;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
+    background-color:#1a1c2b;
+    color: white;
+    padding: 9px;
+    border: white solid 1px;
+    border-radius: 15px;
     font-weight: 500;
 }
 .CVViewbtn{
-    background-color: blue;
-    color: whitesmoke;
-    padding: 10px 30px;
-    margin-right: 6px;
-    border: none;
-    border-radius: 10px;
+    background-color: #1a1c2b;
+    color: white;
+    padding: 9px 30px;
+    margin: 0px 20px;
+    border: white solid 1px;
+    border-radius: 15px;
     font-weight: 500;
 }
 .CVViewbtn:hover {
-    background-color: rgb(0, 253, 0);
-    color: black;
+    background-color: aliceblue;
+    color: #0011f9;
 }
 .CVbtn:hover {
-    background-color: rgb(0, 253, 0);
-    color: black;
+    background-color: aliceblue;
+    color: #0011f9;
 }
 h3{
     color: whitesmoke;
@@ -76,11 +89,45 @@ h3{
 }
 p{
     color: whitesmoke;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 35px;
+    font-size: 20px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) and (max-width:1800px) {
+    .about__main {
+        height: 100vh;
+    }
+    .img-fluid {
+        height: 60%;
+    }
+    .pic-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .CVbtn{
+        display: none;
+    }
+    .CVViewbtn:hover {
+        background-color: red;
+        color: black;
+    }
+    .about__heading{
+        display: none;
+    }
+    .pic-container{
+        padding-bottom: 30px;
+    }
+    p{
+        color: whitesmoke;
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
+
+/* @media screen and (min-width: 576px) {
 .mine {
     flex: 0 0 auto;
     width: 50%;
@@ -132,7 +179,7 @@ p{
     font-weight: 500;
     
 }
-}
+} */
 /* @media screen and (max-width:400px) {
     h1.about__heading{
         text-align: center;
