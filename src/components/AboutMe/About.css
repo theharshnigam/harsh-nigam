@@ -1,27 +1,26 @@
 
 .about__main {
     background-color: #1a1c2b;
-    height: auto;
+    height: 100vh;
 }
 h1.aboutme-tite{
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
 }
-.about__img{
-    background-color: blue;
-    padding-top: 40px ;
-    height: 70%;
-    /* margin-top: 30px;
-    margin-left: 50px;
-    height: 75%;
-    border-radius: 30px; */
-
-}
 .pic-container .img-fluid{
     border: #f9ab00 solid 0.5px;
     border-radius: 30px;
     box-shadow: #0011f9 0 25px 80px -15px;
+}
+.img-fluid {
+    height: 50%;
+    width: auto;
+}
+.pic-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -44,9 +43,7 @@ h1.about__heading:hover{
     letter-spacing: 3px;
     color: red;
 }
-.right_side {
-    background-color: #f9ab00;
-}
+
 .about_content {
     padding-top: 50px;
     padding-bottom: 0;
@@ -93,32 +90,28 @@ p{
     font-size: 20px;
 }
 
-@media screen and (min-width: 768px) and (max-width:1800px) {
-    .about__main {
-        height: 100vh;
-    }
+@media screen and (max-width:576px) {
     .img-fluid {
-        height: 60%;
-    }
-    .pic-container{
-        display: flex;
-        justify-content: center;
+        height: auto;
+        width: 75%;
     }
 }
-
 @media screen and (max-width:767px) {
+    .about__main {
+        height: auto;
+    }
     .CVbtn{
         display: none;
     }
-    .CVViewbtn:hover {
-        background-color: red;
-        color: black;
-    }
+    
     .about__heading{
         display: none;
     }
     .pic-container{
         padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     p{
         color: whitesmoke;
@@ -126,6 +119,16 @@ p{
         font-size: 18px;
     }
 }
+@media screen and (min-width: 576px) and (max-width:1200px) {
+    
+    .img-fluid {
+        height: auto;
+        width: auto;
+    }
+    
+}
+
+
 
 /* @media screen and (min-width: 576px) {
 .mine {

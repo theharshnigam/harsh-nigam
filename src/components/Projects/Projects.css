@@ -4,11 +4,12 @@
 }
 .title_heading {
     text-align: center;
-    padding: 20px;
-    color: whitesmoke;
+    padding: 50px;
+    color: bisque;
 }
 .heading{
     color: whitesmoke;
+    text-decoration: underline;
 }
 
 .content {
