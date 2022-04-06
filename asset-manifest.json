@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2bfa5c0f.chunk.css",
+    "main.css": "/portfolio/static/css/main.07f44f0a.chunk.css",
     "main.js": "/portfolio/static/js/main.e4ccdae3.chunk.js",
     "main.js.map": "/portfolio/static/js/main.e4ccdae3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e6ab01fe.js",
@@ -10,7 +10,7 @@
     "static/js/2.e9b2166e.chunk.js.map": "/portfolio/static/js/2.e9b2166e.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.9082872e.chunk.css.map": "/portfolio/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.2bfa5c0f.chunk.css.map": "/portfolio/static/css/main.2bfa5c0f.chunk.css.map",
+    "static/css/main.07f44f0a.chunk.css.map": "/portfolio/static/css/main.07f44f0a.chunk.css.map",
     "static/js/2.e9b2166e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e9b2166e.chunk.js.LICENSE.txt",
     "static/media/Harsh_CV.50efbf01.pdf": "/portfolio/static/media/Harsh_CV.50efbf01.pdf",
     "static/media/Harsh_cv.43edcd49.jpg": "/portfolio/static/media/Harsh_cv.43edcd49.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e6ab01fe.js",
     "static/css/2.9082872e.chunk.css",
     "static/js/2.e9b2166e.chunk.js",
-    "static/css/main.2bfa5c0f.chunk.css",
+    "static/css/main.07f44f0a.chunk.css",
     "static/js/main.e4ccdae3.chunk.js"
   ]
 }
