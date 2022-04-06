@@ -6,7 +6,7 @@ import p3 from '../../images/Projects/p3.jpg'
 
 const Projects = () => {
   return(
-    <div className="project_main">
+    <div className="project_main" id="Projects">
     <div className="container">
     <div className='title_heading'>  
         <h1>Projects</h1>
