@@ -13,6 +13,7 @@
 .card-section {
     display: flex;
     justify-content: start;
+    padding-bottom: 30px;
 }
 .card-section:nth-child(odd) {
     justify-content: end;

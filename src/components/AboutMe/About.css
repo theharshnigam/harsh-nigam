@@ -12,11 +12,10 @@ h1.aboutme-tite{
     border: #f9ab00 solid 0.5px;
     border-radius: 30px;
     box-shadow: #0011f9 0 25px 80px -15px;
-}
-.img-fluid {
-    height: 50%;
+    height: 80%;
     width: auto;
 }
+
 .pic-container{
     display: flex;
     justify-content: center;
