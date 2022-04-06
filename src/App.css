@@ -121,3 +121,13 @@ nav ul li {
 nav{
     z-index: 2;
 }
+
+/********************Common Update*************************/
+
+
+
+.title_heading {
+    text-align: center;
+    text-shadow: 2px 2px 4px red;
+    color: wheat;
+}

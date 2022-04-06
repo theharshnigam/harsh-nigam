@@ -2,122 +2,66 @@
     background-color: #1a1c2b;
     height: auto;
 }
-.title_heading {
-    text-align: center;
-    text-shadow: 2px 2px 4px red;
-    color: wheat;
+.project_main .title_heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.project_img {
+    width: auto;
 
-.heading{
-    color: whitesmoke;
-    text-decoration: underline;
 }
-
-.content {
-    color: whitesmoke;
-}
-.project1_img {
-    background-color: #1a1c2b;
-    height: auto;
-    width: 70%;
-}
-.BTNprops{
+.card-section {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
 }
-.ViewProjectBTN{
-    background-color:#1a1c2b;
-    padding: 5px 20px;
-    border: white solid 1px;
-    border-radius: 15px;
-    font-weight: 500;
-    color: white;
+.card-section:nth-child(odd) {
+    justify-content: end;
 }
-.ViewProjectBTN:hover{
-    cursor: pointer;
-    background-color: aliceblue;
-    color: blue;
-}
-.projectPicSide{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media screen and (max-width:767px) {
-    .project1_img {
-        background-color:#1a1c2b;
-        height: auto;
-        width: 100%;
-    }
-    .BTNprops{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 20%;
-    }
-    
-}
-
-/* .project_main {
-    background-color: blue;
-    height: 150vh;
-}
-.project_container {
-    height: 100vh;
-    background-color: red;
-}
-.project_title {
+.card-title {
+    font-size: 25px;
     text-align: center;
-    color: whitesmoke;
-    
-    
-}
-.col_1 {
-    width: 50%;
-    float: left;
-    height: 70vh;
-    background-color:#1a1c2b;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
-    display: flex;
-    align-items: center;      
-    justify-content: center;  
-}
-.col_2 {
-    width: 50%;
-    float: left;
-    height: 70vh;
-    background-color: #1a1c2b;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
-}
-.col_2 h2 {
-    text-align: center;
-    color: aliceblue;
     font-weight: 700;
-    padding-bottom: 30px;
 }
-.project1 {
-    height: 80vh;
-    background-color: azure;
+.card-text {
+    color: #1a1c2b;
+    line-height: normal;
 }
 
-@media screen and (max-width:480px) {
-    .col_1 {
-        width: 100%;
-        float: none;
-    }
-    .col_2 {
-        width: 100%;
-        float: none;
-        
-    }
-    .project1_img {
-        height: 70%;
-        width: 70%;
-    }
-} */
+#projects .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 15rem;
+}
+#projects .item:nth-child(even){
+    flex-direction: row-reverse;
+}
+#projects .item .left {
+    flex: 1;
+}
+#projects .item .right {
+    flex: 1;
+    margin-left: -150px;
+}
+#projects .item {
+    height: 50%;
+    width: 50%;
+}
+.project-desc {
+    color: black;
+}
+#projects .img {
+    height: auto;
+    width: 50%;
+}
+
+
+
+@media screen and (max-width: 576px) {
+.img-fluid {
+    height: auto;
+    width: 100%;
+}
+}
