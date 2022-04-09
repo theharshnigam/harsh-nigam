@@ -14,10 +14,8 @@ const Projects = () => {
     <div className="card-section">
     <div className="card mb-3" style={{maxWidth: "540px"}}>
   <div className="row g-1 ">
-    <div className="col-md-6">
-      <div className="project_img">
+    <div className="col-md-6 project_img">
       <img src={p1} className="img-fluid  " alt="..."/>
-      </div>
     </div>
     <div className="col-md-6">
       <div className="card-body">
@@ -33,10 +31,8 @@ const Projects = () => {
 <div className="card-section">
     <div className="card mb-3" style={{maxWidth: "540px"}}>
   <div className="row g-1 ">
-    <div className="col-md-6">
-      <div className="project_img">
+    <div className="col-md-6 project_img">
       <img src={p2} className="img-fluid  " alt="..."/>
-      </div>
     </div>
     <div className="col-md-6">
       <div className="card-body">

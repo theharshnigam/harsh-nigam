@@ -7,13 +7,23 @@
     padding-bottom: 50px;
 }
 .project_img {
-    width: auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
 
+.img-fluid {
+    height: auto;
+    width: 95%;
 }
 .card-section {
     display: flex;
     justify-content: start;
     padding-bottom: 30px;
+}
+
+.card {
+    box-shadow:5px 10px 15px blue;
 }
 .card-section:nth-child(odd) {
     justify-content: end;
