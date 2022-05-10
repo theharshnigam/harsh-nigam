@@ -9,24 +9,23 @@ const Contact = () => {
     <div className='contact_main' id='Contact'>
       <div className='container'>
         <div className='title_heading'>
-          <h1 >Get in touch with</h1>
+          <h1 >Contacts</h1>
         </div>
-        <div className='test'>
-        <div className='contact_content first'>
-          <a href='https://www.linkedin.com/in/imharshnigam' target="_blank"><img className='img-fluid logo' src={linkedin} /></a>
-          
+        <div className="row justify-content-end">
+          <div className='col-3'>
+          <a href='https://www.linkedin.com/in/imharshnigam' target="_blank"><img className='img-fluid' src={linkedin} /></a>
         </div>
-        <div className='contact_content'>
-          <a href='https://www.instagram.com/theharshnigam' target="_blank"><img className='img-fluid logo' src={instagram} /></a>
-          
+        <div className='col-3 '>
+          <a href='https://www.instagram.com/theharshnigam' target="_blank"><img className='img-fluid' src={instagram} /></a>
         </div>
-        <div className='contact_content'>
-          <a href='https://www.facebook.com/iamharshnigam' target="_blank"><img className='img-fluid logo' src={facebook} /></a>
-          
+        <div className='col-3'>
+          <a href='https://www.facebook.com/iamharshnigam' target="_blank"><img className='img-fluid' src={facebook} /></a>
         </div>
         </div>
-      </div>
-    </div>
+          </div>
+        </div>
+       
+  
   )
 }
 
