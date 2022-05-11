@@ -10,11 +10,11 @@ const About = () => {
         if(time >= 0 && time < 4){
             return "🙋‍♂️";
         } else if(time >=4 && time < 12){
-           return "Good morning";
+           return "good morning";
        } else if(time >= 12 && time < 17){
-           return "Good afternoon";
-       } else if(time >= 17 && time < 24){
-           return "Good evening";
+           return "good afternoon";
+       } else if(time >= 17 && time < 23){
+           return "good evening";
        }
     };
 
