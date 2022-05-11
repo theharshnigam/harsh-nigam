@@ -22,8 +22,9 @@
     padding-bottom: 35px;
 }
 
-.card {
-    box-shadow:5px 10px 15px blue;
+.card:hover{
+    border: 1px solid black;
+    box-shadow:7px 6px 5px blue ;
 }
 .card-section:nth-child(3) {
     justify-content: center;
