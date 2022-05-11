@@ -9,7 +9,7 @@ const Contact = () => {
     <div className='contact_main' id='Contact'>
       <div className='container'>
         <div className='title_heading'>
-          <h1 >Contacts</h1>
+          <h1 >--------Contacts--------</h1>
         </div>
         <div className="row justify-content-end">
           <div className='col-3'>

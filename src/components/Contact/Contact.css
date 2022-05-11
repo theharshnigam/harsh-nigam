@@ -3,20 +3,7 @@
     height: 40vh;
 }
 
-.contact_main .img-fluid {
-    height: auto;
-    width: 30%;
-}
 
-.contact_main .img-fluid:hover{
-    height: auto;
-    width: 35%; 
-}
-
-.contact_main .col-3 {
-    flex: 0 0 auto;
-    width: 27%;
-}
 
 
 @media screen and (max-width:768px) {
@@ -34,9 +21,22 @@
         flex: 0 0 auto;
         width: 30%;
     }
-    .contact_main .col-3:hover {
+}
+
+@media screen and (min-width:768px) {
+    .contact_main .img-fluid {
+        height: auto;
+        width: 30%;
+    }
+    
+    .contact_main .img-fluid:hover{
+        height: auto;
+        width: 35%; 
+    }
+    
+    .contact_main .col-3 {
         flex: 0 0 auto;
-        width:35%;
+        width: 27%;
     }
 }
 

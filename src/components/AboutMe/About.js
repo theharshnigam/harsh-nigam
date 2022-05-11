@@ -13,7 +13,7 @@ const About = () => {
            return "Good morning";
        } else if(time >= 12 && time < 17){
            return "Good afternoon";
-       } else if(time >= 17 && time < 23){
+       } else if(time >= 17 && time < 24){
            return "Good evening";
        }
     };
@@ -22,7 +22,7 @@ const About = () => {
         <div className='about__main' id="About">
             <div className='container'>
                     <div className='title_heading'>  
-                        <h1>About Me</h1>
+                        <h1>-------About Me-------</h1>
                     </div>
                 <div className='row'>
                     <div className='col-sm-6 pic-container '>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className='col-sm-6 about_content '>
                              {/* <h1 className='about__heading'>Who I am?</h1> */}
-                            <h3><span style={{color:"red"}}>Hey</span> {greeting()}, I am <span className='name'><strong>Harsh Nigam.</strong></span></h3>
+                            <h3><span style={{color:"red"}}>Hey</span> {greeting()}, I am <span className='name' style={{color:"red"}}><strong>Harsh</strong></span></h3>
                             <p>I am an engineering student & pursuing B.Tech in Computer Scinece Engineering from
                              Ajay Kumar Garg Engineering College, Ghaziabad.<br/> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.

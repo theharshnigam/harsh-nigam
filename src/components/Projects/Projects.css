@@ -19,13 +19,16 @@
 .card-section {
     display: flex;
     justify-content: start;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 .card {
     box-shadow:5px 10px 15px blue;
 }
-.card-section:nth-child(odd) {
+.card-section:nth-child(3) {
+    justify-content: center;
+}
+.card-section:nth-child(4) {
     justify-content: end;
 }
 .card-title {
