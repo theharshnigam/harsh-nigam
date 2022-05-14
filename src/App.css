@@ -30,8 +30,8 @@ body{
 }
 
 .logo{
-    height: 3.125rem;
-    width: 4.375rem;
+    height: 2.5rem;
+    width: 5.5rem;
 }
 
 nav a.nav-link {
@@ -76,9 +76,6 @@ nav ul li {
     height:90vh;
     overflow: hidden;
     
-   
-
-   
 }
 .bg-text  {
 
