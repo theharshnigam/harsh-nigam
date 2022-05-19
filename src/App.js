@@ -8,6 +8,7 @@ import About from './components/AboutMe/About'
 import ParticlesAround from './components/ParticlesAround'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
+import Education from './components/Education/Education'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar/>
       <Header/>
       <About/>
+      <Education/>
       <Projects/>
       <Contact/>
     </>

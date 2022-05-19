@@ -30,8 +30,8 @@ body{
 }
 
 .logo{
-    height: 2.5rem;
-    width: 5.5rem;
+    height: 2.8rem;
+    width: 4.4rem;
 }
 
 nav a.nav-link {
@@ -125,6 +125,6 @@ nav{
 
 .title_heading {
     text-align: center;
-    text-shadow: 2px 2px 4px red;
-    color: wheat;
+    color: rgb(141, 133, 133);
+    
 }

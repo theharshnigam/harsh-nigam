@@ -1,7 +1,8 @@
 
 .about__main {
     background-color: #1a1c2b;
-    height: 95vh;
+    height: 100vh;
+    padding-bottom:30px;
 }
 h1.aboutme-tite{
     text-align: center;
@@ -122,85 +123,3 @@ p{
 
 
 
-
-/* @media screen and (min-width: 576px) {
-.mine {
-    flex: 0 0 auto;
-    width: 50%;
-    height: 70vh;
-    padding-bottom: -1000px;
-}
-}
-
-@media screen and (max-width:480px) {
-    img.about__img {
-        height: 80%;
-    padding-right: 50px;
-    }
-    .CVbtn{
-        background-color: red;
-        color: whitesmoke;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-}
-@media screen and (min-width:481px) and (max-width:767px) {
-    .mine {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    img.about__img {
-    margin-top: 70px;
-    height: 50%;
-    }
-    .CVViewbtn{
-    background-color: blue;
-    color: whitesmoke;
-    padding: 10px 30px;
-    margin-right: 6px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-    .CVbtn{
-    background-color: red;
-    color: whitesmoke;
-    padding-top: 10px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 500;
-    
-}
-} */
-/* @media screen and (max-width:400px) {
-    h1.about__heading{
-        text-align: center;
-    }
-    img.about__img {
-        margin: 30px 0 0 70px;
-        height: 250px;
-        width: auto;
-        display: flex; 
-        justify-content: center;
-
-    }
-} */
-
-/* @media screen and (min-width:400px) and (max-width:576) {
-    .col-sm-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .row>* {
-        flex-shrink: 0;
-        width: 100%;
-        max-width: 50%;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-top: var(--bs-gutter-y);
-    }
-} */

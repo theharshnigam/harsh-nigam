@@ -22,7 +22,7 @@ const About = () => {
         <div className='about__main' id="About">
             <div className='container'>
                     <div className='title_heading'>  
-                        <h1>-------About Me-------</h1>
+                        <h1>About Me</h1>
                     </div>
                 <div className='row'>
                     <div className='col-sm-6 pic-container '>
@@ -36,7 +36,7 @@ const About = () => {
                             Pvt. Ltd.
                             </p>
                             <div className='BTNprops'>
-                                <a href={CVView} target="_blank"><button className='CVViewbtn'>View CV</button></a>
+                                <a href={CVView} target="_blank" rel="noreferrer" ><button className='CVViewbtn'>View CV</button></a>
                                 <a href={CV} download><button className='CVbtn'>Download CV</button></a>
                             </div>
                     </div>

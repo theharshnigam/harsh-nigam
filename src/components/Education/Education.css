@@ -1,0 +1,50 @@
+.Education_main{
+    background-color: #1a1c2b;
+    height:auto;
+    padding-bottom:30px;
+}
+
+#Education h3 {
+    color:whitesmoke;
+    font-weight: bold;
+}
+#Education .title_heading {
+    margin-bottom: 50px;
+}
+
+.qualification_data {
+    display:grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification_subtitle {
+    display:inline-block;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+.qualification_calendar {
+    font-size: 20px;
+    color: white;
+}
+.qualification_percentage {
+    font-size:20px;
+    color: white;
+}
+.qualification_round {
+    display:inline-block;
+    width: 13px;
+    height:13px;
+    background-color:whitesmoke;
+    border-radius:50%
+}
+
+.qualification_line {
+    display:block;
+    width:1px;
+    height:100%;
+    background-color:whitesmoke;
+    transform:translate(6px, -7px);
+}

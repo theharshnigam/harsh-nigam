@@ -9,17 +9,17 @@ const Contact = () => {
     <div className='contact_main' id='Contact'>
       <div className='container'>
         <div className='title_heading'>
-          <h1 >--------Contacts--------</h1>
+          <h1 >Contacts</h1>
         </div>
         <div className="row justify-content-end">
           <div className='col-3'>
-          <a href='https://www.linkedin.com/in/imharshnigam' target="_blank"><img className='img-fluid' src={linkedin} /></a>
+          <a href='https://www.linkedin.com/in/imharshnigam' target="_blank" rel="noreferrer" ><img className='img-fluid' src={linkedin} /></a>
         </div>
         <div className='col-3 '>
-          <a href='https://www.instagram.com/theharshnigam' target="_blank"><img className='img-fluid' src={instagram} /></a>
+          <a href='https://www.instagram.com/theharshnigam' target="_blank" rel="noreferrer" ><img className='img-fluid' src={instagram} /></a>
         </div>
         <div className='col-3'>
-          <a href='https://www.facebook.com/iamharshnigam' target="_blank"><img className='img-fluid' src={facebook} /></a>
+          <a href='https://www.facebook.com/iamharshnigam' target="_blank" rel="noreferrer" ><img className='img-fluid' src={facebook} /></a>
         </div>
         </div>
           </div>

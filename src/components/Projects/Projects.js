@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="project_main" id="Projects">
     <div className="container">
     <div className='title_heading'>  
-        <h1>--------Projects--------</h1>
+        <h1>Projects</h1>
     </div>
     <div className="card-section">
     <div className="card mb-3" style={{maxWidth: "540px"}}>

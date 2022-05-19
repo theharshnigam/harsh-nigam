@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/mylogo.jpg'
+import logo from '../images/logo.jpg'
 
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
           <a className="nav-link active" aria-current="page" href='#About'>About Me</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Education</a>
+          <a className="nav-link" href="#Education">Education</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#Projects">Projects</a>
