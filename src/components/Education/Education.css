@@ -55,7 +55,7 @@
     .qualification_content::before {
         content:"";
         position:absolute;
-        height:65%;
+        height: 75%;
         width:1px;
         background-color:white;
     }
