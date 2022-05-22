@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className='col-sm-6 about_content '>
                              {/* <h1 className='about__heading'>Who I am?</h1> */}
-                            <h3><span style={{color:"red"}}>Hey</span> {greeting()}, I am <span className='name' style={{color:"red"}}><strong>Harsh</strong></span></h3>
+                            <h3><span style={{color:"#f9ab00"}}>Hey</span> {greeting()}, I am <span className='name' style={{color:"#f9ab00"}}><strong>Harsh</strong></span></h3>
                             <p>I am an engineering student & pursuing B.Tech in Computer Scinece Engineering from
                              Ajay Kumar Garg Engineering College, Ghaziabad.<br/> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.
