@@ -52,10 +52,13 @@
 
 
  @media screen and (max-width:480px) {
+     .qualification_content {
+         height:33rem;
+     }
     .qualification_content::before {
         content:"";
         position:absolute;
-        height: 75%;
+        height: 33rem;
         width:1px;
         background-color:white;
     }

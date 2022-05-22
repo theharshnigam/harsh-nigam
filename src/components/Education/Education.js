@@ -8,6 +8,7 @@ const Education = () => {
             <div className='title_heading'>  
                 <h1>Qualification</h1>
             </div>
+            <div className="qualification_contents">
             <div className="qualification_content">
                 <div className="qualification_data">
                     <div>
@@ -80,6 +81,7 @@ const Education = () => {
                         <span className="qualification_line"></span>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
