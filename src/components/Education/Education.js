@@ -11,7 +11,7 @@ const Education = () => {
             <div className="qualification_contents">
             <div className="qualification_content">
                 <div className="qualification_data">
-                    <div>
+                    <div className="data">
                         <h3 className="qualification_title">B.Tech - Computer Science & Engineering</h3>
                         
                         <div className="qualification_subtitle">
@@ -42,7 +42,7 @@ const Education = () => {
                         <span className="qualification_line"></span>
                     </div>
 
-                    <div>
+                    <div className="data">
                         <h3 className="qualification_title">Intermediate</h3>
                         <div className="qualification_subtitle">
                             <i class="uil uil-university"></i>
@@ -60,7 +60,7 @@ const Education = () => {
                 </div>
 
                 <div className="qualification_data">
-                    <div>
+                    <div className="data">
                         <h3 className="qualification_title">High-School</h3>
                         <div className="qualification_subtitle">
                             <i class="uil uil-university"></i>
