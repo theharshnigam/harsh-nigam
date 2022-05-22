@@ -1,15 +1,16 @@
-
 .about__main {
     background-color: #1a1c2b;
     height: 100vh;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
-h1.aboutme-tite{
+
+h1.aboutme-tite {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
 }
-.pic-container .img-fluid{
+
+.pic-container .img-fluid {
     border: #f9ab00 solid 0.5px;
     border-radius: 30px;
     box-shadow: #0011f9 0 25px 80px -15px;
@@ -17,7 +18,7 @@ h1.aboutme-tite{
     width: auto;
 }
 
-.pic-container{
+.pic-container {
     display: flex;
     justify-content: center;
     padding-top: 40px;
@@ -26,10 +27,11 @@ h1.aboutme-tite{
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
 .navbar-light .navbar-toggler {
-    border-color:orange;
+    border-color: orange;
     border-radius: 2px;
-    
+
 }
 
 #About .title_heading {
@@ -40,21 +42,24 @@ h1.aboutme-tite{
     padding-top: 50px;
     padding-bottom: 0;
 }
-.name{
+
+.name {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
-    
-    
+
+
 }
-.CVbtn{
-    background-color:#1a1c2b;
+
+.CVbtn {
+    background-color: #1a1c2b;
     color: white;
     padding: 9px;
     border: white solid 1px;
     border-radius: 15px;
     font-weight: 500;
 }
-.CVViewbtn{
+
+.CVViewbtn {
     background-color: #1a1c2b;
     color: white;
     padding: 9px 30px;
@@ -63,21 +68,25 @@ h1.aboutme-tite{
     border-radius: 15px;
     font-weight: 500;
 }
+
 .CVViewbtn:hover {
     background-color: aliceblue;
     color: #0011f9;
 }
+
 .CVbtn:hover {
     background-color: aliceblue;
     color: #0011f9;
 }
-h3{
+
+h3 {
     color: whitesmoke;
     text-align: start;
     word-spacing: 3px;
-   
+
 }
-p{
+
+p {
     color: whitesmoke;
     line-height: 35px;
     font-size: 20px;
@@ -96,30 +105,31 @@ p{
         width: 100%;
     }
 }
+
 @media screen and (max-width:768px) {
-    
+
     .about__main {
         height: auto;
     }
-    .CVbtn{
+
+    .CVbtn {
         display: none;
     }
-    
-    .about__heading{
+
+    .about__heading {
         display: none;
     }
-    .pic-container{
+
+    .pic-container {
         padding-bottom: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    p{
+
+    p {
         color: whitesmoke;
         line-height: 30px;
         font-size: 18px;
     }
 }
-
-
-

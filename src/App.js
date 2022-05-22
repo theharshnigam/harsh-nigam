@@ -14,15 +14,15 @@ import Education from './components/Education/Education'
 const App = () => {
   return (
     <>
-      <ParticlesAround/>
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Education/>
-      <Projects/>
-      <Contact/>
+      <ParticlesAround />
+      <Navbar />
+      <Header />
+      <About />
+      <Education />
+      <Projects />
+      <Contact />
     </>
   )
 }
-  
+
 export default App;

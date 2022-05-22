@@ -10,13 +10,16 @@
     .contact_main {
         height: 25vh;
     }
+
     .contact_main .img-fluid {
         height: auto;
         width: 85%;
     }
+
     .contact_main .col-sm-3 {
         padding-right: 50px;
     }
+
     .contact_main .col-3 {
         flex: 0 0 auto;
         width: 30%;
@@ -28,16 +31,14 @@
         height: auto;
         width: 30%;
     }
-    
-    .contact_main .img-fluid:hover{
+
+    .contact_main .img-fluid:hover {
         height: auto;
-        width: 35%; 
+        width: 35%;
     }
-    
+
     .contact_main .col-3 {
         flex: 0 0 auto;
         width: 27%;
     }
 }
-
-
