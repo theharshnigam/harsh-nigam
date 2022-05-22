@@ -16,6 +16,8 @@
     height: auto;
     width: 95%;
 }
+
+
 .card-section {
     display: flex;
     justify-content: start;
@@ -24,7 +26,7 @@
 
 .card:hover{
     border: 1px solid black;
-    box-shadow:7px 6px 5px blue ;
+    box-shadow:7px 6px 5px rgb(190, 190, 190) ;
 }
 .card-section:nth-child(3) {
     justify-content: center;
@@ -71,6 +73,23 @@
     height: auto;
     width: 50%;
 }
+
+.view_btn {
+    background-color:whitesmoke;
+    color: white;
+    padding: 6px 12px;
+    border: black solid 1px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: black;
+    font-size:1rem;
+}
+
+.view_btn:hover{
+    background-color:#1a1c2b;
+    color: white;
+}
+
 
 
 
