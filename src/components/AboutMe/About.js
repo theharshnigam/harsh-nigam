@@ -21,22 +21,22 @@ const About = () => {
     return (
         <div className='about__main' id="About">
             <div className='container'>
-                <div className='title_heading'>
+                <div className='title_heading' data-aos="flip-down" data-aos-duration="1000">
                     <h1>About Me</h1>
                 </div>
                 <div className='row'>
-                    <div className='col-sm-6 pic-container '>
+                    <div className='col-sm-6 pic-container ' data-aos="zoom-in-up" data-aos-duration="1500">
                         <img src={aboutImg} alt="Harsh Nigam" className='img-fluid' />
                     </div>
-                    <div className='col-sm-6 about_content '>
+                    <div className='col-sm-6 about_content ' data-aos="slide-up" data-aos-duration="2000">
                         {/* <h1 className='about__heading'>Who I am?</h1> */}
-                        <h3><span style={{ color: "#f9ab00" }}>Hey</span> {greeting()}, I am <span className='name' style={{ color: "#f9ab00" }}><strong>Harsh</strong></span></h3>
+                        <h3><span style={{ color: "#f9ab00" }}>Hey</span> {greeting()}, I am <span data-aos="fade-left" data-aos-duration="2000" className='name' style={{ color: "#f9ab00" }}><strong>Harsh</strong></span></h3>
                         <p>I am an engineering student & pursuing B.Tech in Computer Scinece Engineering from
                             Ajay Kumar Garg Engineering College, Ghaziabad.<br /> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.
                         </p>
                         <div className='BTNprops'>
-                            <a href={CVView} target="_blank" rel="noreferrer" ><button className='CVViewbtn'>View CV</button></a>
+                            <a href={CVView} target="_blank" rel="noreferrer" ><button className='CVViewbtn' >View CV</button></a>
                             <a href={CV} download><button className='CVbtn'>Download CV</button></a>
                         </div>
                     </div>

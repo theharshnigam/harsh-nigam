@@ -5,7 +5,7 @@ const Education = () => {
     return (
         <div className="Education_main" id="Education">
             <div className="container">
-                <div className='title_heading'>
+                <div className='title_heading' data-aos="flip-down" data-aos-duration="1000">
                     <h1>Qualification</h1>
                 </div>
                 <div className="qualification_contents">

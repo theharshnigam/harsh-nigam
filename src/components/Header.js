@@ -6,7 +6,6 @@ const Header = () => {
         <>
 
             <div className="bg-image">
-
                 <div className="bg-text center">
                     <h1> Harsh Nigam</h1>
                     <Typed
