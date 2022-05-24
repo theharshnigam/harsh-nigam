@@ -19,6 +19,9 @@
     width: 95%;
 }
 
+.card{
+    max-width:560px
+}
 
 .card-section {
     display: flex;
@@ -109,5 +112,8 @@
     .img-fluid {
         height: auto;
         width: 100%;
+    }
+    .card{
+        max-width:350px
     }
 }
