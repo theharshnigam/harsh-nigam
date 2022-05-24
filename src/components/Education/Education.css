@@ -58,7 +58,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: #f9ab00;
     transform: translate(6px, -7px);
 }
 
@@ -81,7 +81,7 @@
         position: absolute;
         height: 33rem;
         width: 1px;
-        background-color: white;
+        background-color: whitesmoke;
     }
 
     .qualification_data {
@@ -96,7 +96,7 @@
         height: 15px;
         width: 15px;
         border-radius: 50%;
-        background-color: whitesmoke;
+        background-color: #f9ab00;
         transform: translate(-27px)
     }
 
