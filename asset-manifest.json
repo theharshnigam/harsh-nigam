@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f2eed05.chunk.css",
-    "main.js": "/portfolio/static/js/main.baaa71cc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.baaa71cc.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.e6ab01fe.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e6ab01fe.js.map",
-    "static/css/2.9082872e.chunk.css": "/portfolio/static/css/2.9082872e.chunk.css",
-    "static/js/2.d9774d9e.chunk.js": "/portfolio/static/js/2.d9774d9e.chunk.js",
-    "static/js/2.d9774d9e.chunk.js.map": "/portfolio/static/js/2.d9774d9e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1c9079f0.css",
+    "main.js": "/portfolio/static/js/main.436575f3.js",
+    "static/media/fb.png": "/portfolio/static/media/fb.5d6ee0d463801956f04c.png",
+    "static/media/Harsh_cv.jpg": "/portfolio/static/media/Harsh_cv.43edcd499a2a0406ea42.jpg",
+    "static/media/mypic.png": "/portfolio/static/media/mypic.44fa1868a9e46cba6c15.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.93dec5ce71bb399e78b2.png",
+    "static/media/insta.png": "/portfolio/static/media/insta.0317d10fa755e26d081e.png",
+    "static/media/p1.jpg": "/portfolio/static/media/p1.bf308a26cc8197d509e4.jpg",
+    "static/media/Harsh_CV.pdf": "/portfolio/static/media/Harsh_CV.50efbf01fd068ace5490.pdf",
+    "static/media/p3.jpg": "/portfolio/static/media/p3.2ddc05bc8c48c2161a80.jpg",
+    "static/media/p2.png": "/portfolio/static/media/p2.d21031b96acaafaedf7b.png",
+    "static/media/background.jpg": "/portfolio/static/media/background.f3253abdb1587eb7285b.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/2.9082872e.chunk.css.map": "/portfolio/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.7f2eed05.chunk.css.map": "/portfolio/static/css/main.7f2eed05.chunk.css.map",
-    "static/js/2.d9774d9e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d9774d9e.chunk.js.LICENSE.txt",
-    "static/media/Harsh_CV.50efbf01.pdf": "/portfolio/static/media/Harsh_CV.50efbf01.pdf",
-    "static/media/Harsh_cv.43edcd49.jpg": "/portfolio/static/media/Harsh_cv.43edcd49.jpg",
-    "static/media/App.css": "/portfolio/static/media/background.f3253abd.jpg",
-    "static/media/fb.5d6ee0d4.png": "/portfolio/static/media/fb.5d6ee0d4.png",
-    "static/media/insta.0317d10f.png": "/portfolio/static/media/insta.0317d10f.png",
-    "static/media/linkedin.93dec5ce.png": "/portfolio/static/media/linkedin.93dec5ce.png",
-    "static/media/mypic.44fa1868.png": "/portfolio/static/media/mypic.44fa1868.png",
-    "static/media/p1.bf308a26.jpg": "/portfolio/static/media/p1.bf308a26.jpg",
-    "static/media/p2.d21031b9.png": "/portfolio/static/media/p2.d21031b9.png",
-    "static/media/p3.2ddc05bc.jpg": "/portfolio/static/media/p3.2ddc05bc.jpg"
+    "main.1c9079f0.css.map": "/portfolio/static/css/main.1c9079f0.css.map",
+    "main.436575f3.js.map": "/portfolio/static/js/main.436575f3.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6ab01fe.js",
-    "static/css/2.9082872e.chunk.css",
-    "static/js/2.d9774d9e.chunk.js",
-    "static/css/main.7f2eed05.chunk.css",
-    "static/js/main.baaa71cc.chunk.js"
+    "static/css/main.1c9079f0.css",
+    "static/js/main.436575f3.js"
   ]
 }
