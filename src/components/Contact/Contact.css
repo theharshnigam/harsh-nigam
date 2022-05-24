@@ -32,11 +32,11 @@
     .contact_main .img-fluid {
         height: auto;
         width: 30%;
+        transition:0.5s;
     }
 
     .contact_main .img-fluid:hover {
-        height: auto;
-        width: 35%;
+        transform:translateY(-10px);
     }
 
     .contact_main .col-3 {
