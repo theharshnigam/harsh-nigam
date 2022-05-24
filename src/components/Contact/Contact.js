@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='contact_main' id='Contact'>
       <div className='container'>
-        <div className='title_heading' data-aos="flip-down" data-aos-duration="1000">
+        <div className='title_heading'>
           <h1 >Contacts</h1>
         </div>
         <div className="row justify-content-end">

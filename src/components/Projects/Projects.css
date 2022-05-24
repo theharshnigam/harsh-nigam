@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #172855;
 }
 
 .img-fluid {
@@ -20,7 +21,11 @@
 }
 
 .card{
-    max-width:560px
+    max-width:560px;
+    border: 1px solid purple;
+}
+.card-body{
+    background-color: lightsteelblue;
 }
 
 .card-section {
@@ -31,7 +36,7 @@
 
 .card:hover {
     border: 1px solid black;
-    box-shadow: 7px 6px 5px rgb(190, 190, 190);
+    box-shadow: 0 0 20px purple;
 }
 
 .card-section:nth-child(3) {
