@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
 
         <div className="card-section">
-          <div className="card mb-3" style={{ maxWidth: "540px" }}>
+          <div className="card mb-3" style={{ maxWidth: "350px" }}>
             <div className="row g-1 ">
               <div className="col-sm-6 project_img" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                 <img src={p1} className="img-fluid  " alt="..." />
@@ -35,7 +35,7 @@ const Projects = () => {
 
 
         <div className="card-section">
-          <div className="card mb-3" style={{ maxWidth: "540px" }}>
+          <div className="card mb-3" style={{ maxWidth: "350px" }}>
             <div className="row g-1 ">
               <div className="col-sm-6 project_img" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                 <img src={p3} className="img-fluid  " alt="..." />
@@ -53,7 +53,7 @@ const Projects = () => {
         </div>
 
         <div className="card-section">
-          <div className="card mb-3" style={{ maxWidth: "540px" }}>
+          <div className="card mb-3" style={{ maxWidth: "350px" }}>
             <div className="row g-1 ">
               <div className="col-sm-6 project_img" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                 <img src={p2} className="img-fluid  " alt="..." />

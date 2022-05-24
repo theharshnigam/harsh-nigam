@@ -64,6 +64,7 @@ h1.aboutme-tite {
     color: white;
     padding: 9px 30px;
     margin: 0px 20px;
+    margin-left: 0;
     border: white solid 1px;
     border-radius: 15px;
     font-weight: 500;
