@@ -1,9 +1,25 @@
 .contact_main {
-    background-color: #151729;
-    height: 50vh;
+    background-color: #212547;
+    height: 30vh;
 }
 #Contact .title_heading {
-    padding-bottom: 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.contact_link {
+    font-size:3rem;
+    margin:0 1rem;
+}
+
+.contact_link i{
+    color: #eee;
+    transition: .5s;
+}
+.contact_link i:hover{
+    color: #f9ab00;
+    transform:translateY(-0.3rem);
+    cursor:pointer;
 }
 
 
@@ -42,5 +58,12 @@
     .contact_main .col-3 {
         flex: 0 0 auto;
         width: 27%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .contact_link {
+        font-size:2rem;
+        margin:0 0.5rem;
     }
 }
