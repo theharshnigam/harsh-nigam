@@ -1,9 +1,10 @@
 .contact_main {
-    background-color: #212547;
-    height: 30vh;
+    background-color:rgb(37, 36, 78);
+    background: linear-gradient(#1a1c2b00,rgba(0, 0, 0, 0.711)), url("../../images/footer.png") no-repeat center/cover #1a1c2b;
+    height: 40vh;
 }
 #Contact .title_heading {
-    padding: 1rem;
+    padding: 2.8rem 0 1rem 0;
     color: #fff;
 }
 
@@ -20,7 +21,7 @@
     color: #f9ab00;
     transform:translateY(-0.3rem);
     cursor:pointer;
-}
+}   
 
 
 
@@ -65,5 +66,8 @@
     .contact_link {
         font-size:2rem;
         margin:0 0.5rem;
+    }
+    .contact_main{
+        height:25vh;
     }
 }

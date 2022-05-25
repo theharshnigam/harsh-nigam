@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <div className='col-sm-6 about_content ' data-aos="slide-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1200">
                         {/* <h1 className='about__heading'>Who I am?</h1> */}
-                        <h3><span style={{ color: "#f9ab00" }}>Hey</span> {greeting()}, I am <span className='name'><strong>Harsh</strong></span></h3>
+                        <h3><span style={{ color: "#f9ab00" }}>Hey</span> {greeting()}, I am <span className='name'>Harsh Nigam</span></h3>
                         <p>I am an engineering student & pursuing B.Tech in Computer Scinece Engineering from
                             Ajay Kumar Garg Engineering College, Ghaziabad.<br /> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
                             Pvt. Ltd.

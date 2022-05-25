@@ -48,14 +48,15 @@ h1.aboutme-tite {
     letter-spacing: 1px;
     color: #f9ab00;
     font-size:2.2rem;
+    font-weight: 600;
 }
 
 .CVbtn {
-    background-color: #1a1c2b;
-    color: white;
-    padding: 9px;
-    border: white solid 1px;
-    border-radius: 15px;
+    background-color: #f9ab00;
+    color: black;
+    padding: 8px;
+    border: rgba(255, 167, 4, 0.852) solid 1px;
+    border-radius: 0.5rem;
     font-weight: 500;
 }
 
@@ -65,19 +66,19 @@ h1.aboutme-tite {
     padding: 9px 30px;
     margin: 0px 20px;
     margin-left: 0;
-    border: white solid 1px;
-    border-radius: 15px;
+    border: #f9ab00 solid 0.01rem;
+    border-radius: 0.5rem;
     font-weight: 500;
 }
 
 .CVViewbtn:hover {
-    background-color: aliceblue;
-    color: #0011f9;
+    background-color: #f9ab00;
+    color: black;
 }
 
 .CVbtn:hover {
-    background-color: aliceblue;
-    color: #0011f9;
+    background-color: var(--primary);
+    
 }
 
 h3 {
