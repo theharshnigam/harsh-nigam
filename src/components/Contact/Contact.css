@@ -62,12 +62,15 @@
     }
 }
 
-@media only screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     .contact_link {
         font-size:2rem;
         margin:0 0.5rem;
     }
     .contact_main{
         height:25vh;
+    }
+    #Contact .title_heading {
+        padding: 1.8rem 0 0.6rem 0;
     }
 }
