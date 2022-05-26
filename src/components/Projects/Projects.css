@@ -121,4 +121,15 @@
     .card{
         max-width:350px
     }
+    .card-section:nth-child(even) {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-section:nth-child(odd) {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
