@@ -1,21 +1,23 @@
 {
-  "files": {
-    "main.css": "/portfolio/static/css/main.720e91ed.css",
-    "main.js": "/portfolio/static/js/main.20681e1c.js",
-    "static/media/footer.png": "/portfolio/static/media/footer.230103e25ff1870156fd.png",
-    "static/media/Harsh_cv.jpg": "/portfolio/static/media/Harsh_cv.43edcd499a2a0406ea42.jpg",
-    "static/media/mypic.png": "/portfolio/static/media/mypic.44fa1868a9e46cba6c15.png",
-    "static/media/pp1.png": "/portfolio/static/media/pp1.5c2e74c3f2bdc1fce3b1.png",
-    "static/media/Harsh_CV.pdf": "/portfolio/static/media/Harsh_CV.50efbf01fd068ace5490.pdf",
-    "static/media/p2.jpg": "/portfolio/static/media/p2.2ddc05bc8c48c2161a80.jpg",
-    "static/media/p3.jpg": "/portfolio/static/media/p3.7ceca92219185b653e26.jpg",
-    "static/media/background.jpg": "/portfolio/static/media/background.f3253abdb1587eb7285b.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.720e91ed.css.map": "/portfolio/static/css/main.720e91ed.css.map",
-    "main.20681e1c.js.map": "/portfolio/static/js/main.20681e1c.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.720e91ed.css",
-    "static/js/main.20681e1c.js"
-  ]
+  "main.css": "/portfolio/static/css/main.9d79347d.chunk.css",
+  "main.js": "/portfolio/static/js/main.1bb75faa.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.1bb75faa.chunk.js.map",
+  "static/css/1.f7ff3636.chunk.css": "/portfolio/static/css/1.f7ff3636.chunk.css",
+  "static/js/1.fa2b3831.chunk.js": "/portfolio/static/js/1.fa2b3831.chunk.js",
+  "static/js/1.fa2b3831.chunk.js.map": "/portfolio/static/js/1.fa2b3831.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
+  "static/media/mypic.png": "/portfolio/static/media/mypic.83b74fdc.png",
+  "static/media/Harsh_CV.pdf": "/portfolio/static/media/Harsh_CV.8cb5ca91.pdf",
+  "static/media/Harsh_cv.jpg": "/portfolio/static/media/Harsh_cv.64a40ed9.jpg",
+  "static/media/pp1.png": "/portfolio/static/media/pp1.9fb1f77d.png",
+  "static/media/p2.jpg": "/portfolio/static/media/p2.d0ec0fe3.jpg",
+  "static/media/p3.jpg": "/portfolio/static/media/p3.8cdf6573.jpg",
+  "static/media/App.css": "/portfolio/static/media/background.89777a9a.jpg",
+  "static/media/Contact.css": "/portfolio/static/media/footer.45e94473.png",
+  "static/css/main.9d79347d.chunk.css.map": "/portfolio/static/css/main.9d79347d.chunk.css.map",
+  "static/css/1.f7ff3636.chunk.css.map": "/portfolio/static/css/1.f7ff3636.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.5be660fd175e4308ff1269175b68b68d.js": "/portfolio/precache-manifest.5be660fd175e4308ff1269175b68b68d.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
