@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/AboutMe/About'

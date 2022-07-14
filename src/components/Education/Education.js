@@ -12,7 +12,7 @@ const Education = () => {
                     <div className="qualification_content">
                         <div className="qualification_data">
                             <div className="data">
-                                <h3 className="qualification_title">B.Tech - Computer Science & Engineering</h3>
+                                <h3 className="qualification_title">B.Tech in Computer Science & Engineering</h3>
 
                                 <div className="qualification_subtitle">
                                     <i class="uil uil-university"></i>
