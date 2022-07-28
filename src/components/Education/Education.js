@@ -25,7 +25,7 @@ const Education = () => {
                                 </div>
                                 <div className="qualification_percentage">
                                     <i class="uil uil-lightbulb-alt"></i>
-                                    8.3 CGPA
+                                    8.14 CGPA
                                 </div>
                             </div>
 
