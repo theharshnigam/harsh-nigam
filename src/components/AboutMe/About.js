@@ -31,9 +31,8 @@ const About = () => {
                     <div className='col-sm-6 about_content ' data-aos="slide-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1200">
                         {/* <h1 className='about__heading'>Who I am?</h1> */}
                         <h3><span style={{ color: "#f9ab00" }}>Hey</span> {greeting()}, I am <span className='name'>Harsh Nigam</span></h3>
-                        <p>I am an engineering student & pursuing B.Tech in Computer Scinece Engineering from
-                            Ajay Kumar Garg Engineering College, Ghaziabad.<br /> Currently I am working as an <i>Intern</i> at Cognizant Technology Solutions
-                            Pvt. Ltd.
+                        <p>
+                            I am currently working as a Programmer Analyst Trainee in <i>Cognizant Technology Solutions</i>. I have completed my engineering in 2022 from Ajay Kumar Garg Engineering College, Ghaziabad. I believe in consistent learning because <strong>Slow and Steady wins the race</strong>.
                         </p>
                         <div className='BTNprops'>
                             <a href={CVView} target="_blank" rel="noreferrer" ><button className='CVViewbtn' >View CV</button></a>
