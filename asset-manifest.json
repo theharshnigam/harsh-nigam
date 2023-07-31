@@ -1,13 +1,13 @@
 {
   "main.css": "/portfolio/static/css/main.9d79347d.chunk.css",
-  "main.js": "/portfolio/static/js/main.a200ef9b.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.a200ef9b.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.42902f9d.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.42902f9d.chunk.js.map",
   "static/css/1.f7ff3636.chunk.css": "/portfolio/static/css/1.f7ff3636.chunk.css",
   "static/js/1.fa2b3831.chunk.js": "/portfolio/static/js/1.fa2b3831.chunk.js",
   "static/js/1.fa2b3831.chunk.js.map": "/portfolio/static/js/1.fa2b3831.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/mypic.png": "/portfolio/static/media/mypic.83b74fdc.png",
+  "static/media/mypic.jpg": "/portfolio/static/media/mypic.0effacb2.jpg",
   "static/media/Harsh_CV.pdf": "/portfolio/static/media/Harsh_CV.8cb5ca91.pdf",
   "static/media/Harsh_cv.jpg": "/portfolio/static/media/Harsh_cv.64a40ed9.jpg",
   "static/media/pp1.png": "/portfolio/static/media/pp1.9fb1f77d.png",
@@ -18,6 +18,6 @@
   "static/css/main.9d79347d.chunk.css.map": "/portfolio/static/css/main.9d79347d.chunk.css.map",
   "static/css/1.f7ff3636.chunk.css.map": "/portfolio/static/css/1.f7ff3636.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.095b56993c0dc5ce2b486e774345dbde.js": "/portfolio/precache-manifest.095b56993c0dc5ce2b486e774345dbde.js",
+  "precache-manifest.59459a47f3dc02c6375bc9de85bd1bad.js": "/portfolio/precache-manifest.59459a47f3dc02c6375bc9de85bd1bad.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
